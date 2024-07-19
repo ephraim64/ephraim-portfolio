@@ -676,3 +676,33 @@ body {
     transition: 0.3s ease-in-out;
   }
 }
+
+@media (max-width: 700px) {
+
+  section {
+      padding: 10px 20px;
+    }
+
+  .about .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about .content .col-left {
+      width: 100%
+    }
+    .about .content .col-right {
+      width: 100%
+  }
+
+  .about .content .col-left .img-card{
+    width: 100%;
+  }
+  .about .content .col-left .img-card img{
+    width: 100%;
+  }
+  .about .content .col-rightt .img-card {
+    width: 50%;
+  }
+}
